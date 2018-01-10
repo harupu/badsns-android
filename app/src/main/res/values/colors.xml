@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#cf3034</color>
+    <color name="colorAccent">#8140FF</color>
+    <color name="black">#000000</color>
+    <color name="gray">#555555</color>
+    <color name="light_gray">#cccccc</color>
+    <color name="light_light_gray">#eeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="curious_blue">#337ab7</color>
+    <color name="transparent">#00000000</color>
+    <color name="half_transparent_black">#aa000000</color>
+    <color name="maine">#f4b183</color>
+    <color name="red">#ff0000</color>
+</resources>

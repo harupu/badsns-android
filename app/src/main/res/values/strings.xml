@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">BAD SNS</string>
+
+    <!-- Strings related to login -->
+    <string name="login_user">ログイン ID</string>
+    <string name="login_nickname">名前(表示したい名前)</string>
+    <string name="login_password">パスワード</string>
+    <string name="action_login">ログイン</string>
+    <string name="action_cancel">キャンセル</string>
+    <string name="action_register">新規ユーザ登録</string>
+    <string name="server_settings_link"><u>サーバ設定</u></string>
+
+    <!-- Strings related to Timeline -->
+    <string name="timeline_post">しゃべる（140文字まで）</string>
+
+    <!-- Strings related to Friend -->
+    <string name="friend_label">友人の登録</string>
+    <string name="friend_add_label">登録したいユーザのログインID</string>
+    <string name="friend_add_hint">ユーザのログインID</string>
+    <string name="friend_add_button">登録</string>
+    <string name="friend_current_label">友達一覧</string>
+
+
+    <!-- Strings related to Menu -->
+    <string name="menu_server_settings">サーバ設定</string>
+    <string name="menu_logout">ログアウト</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_server_settings">サーバ設定</string>
+    <string name="setting_server_host_key">server_host</string>
+    <string name="setting_server_host_title">サーバ ホスト名 or IP *必須</string>
+    <string name="setting_server_host_hint">xx.xx.xx.xx</string>
+
+    <string name="setting_server_port_key">server_port</string>
+    <string name="setting_server_port_title">サーバ ポート *必須</string>
+    <string name="setting_server_port_hint">3000</string>
+
+    <string name="setting_proxy_host_key">proxy_host</string>
+    <string name="setting_proxy_host_title">Proxy ホスト名 or IP</string>
+    <string name="setting_proxy_host_hint">xx.xx.xx.xx</string>
+
+    <string name="setting_proxy_port_key">proxy_port</string>
+    <string name="setting_proxy_port_title">Proxy ポート</string>
+    <string name="setting_proxy_port_hint">8080</string>
+
+
+</resources>

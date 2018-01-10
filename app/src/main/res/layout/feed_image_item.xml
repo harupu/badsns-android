@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|center_horizontal"
+        android:padding="10dp">
+        <ImageView
+            android:id="@+id/feed_icon"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            />
+    </LinearLayout>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:padding="10dp">
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="horizontal" android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="0dp">
+            <TextView
+                android:id="@+id/feed_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="90"
+                android:layout_gravity="left|center_vertical"
+                android:textSize="@dimen/font_size"
+                android:textColor="@color/black"
+                />
+            <TextView
+                android:id="@+id/feed_date"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="90"
+                android:layout_gravity="left|center_vertical"
+                android:layout_marginLeft="20dp"
+                android:textColor="@color/light_gray"
+                />
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/feed_image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/white"
+            />
+    </LinearLayout>
+</LinearLayout>

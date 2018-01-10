@@ -1,0 +1,26 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+    <item
+        android:id="@+id/menu_upload"
+        android:title="画像を投稿"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_friend"
+        android:title="友人を登録"
+        android:orderInCategory="200"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_server_settings"
+        android:title="@string/menu_server_settings"
+        android:orderInCategory="300"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu_logout"
+        android:title="@string/menu_logout"
+        android:orderInCategory="400"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bootcampsns.activity.ServerSettingsActivity"
+    >
+
+    <EditTextPreference
+        android:key="@string/setting_server_host_key"
+        android:title="@string/setting_server_host_title"
+        android:hint="@string/setting_server_host_hint"
+        />
+
+    <EditTextPreference
+        android:key="@string/setting_server_port_key"
+        android:title="@string/setting_server_port_title"
+        android:hint="@string/setting_server_port_hint"
+        android:inputType="number"
+        android:maxLength="5"
+        />
+
+    <EditTextPreference
+        android:key="@string/setting_proxy_host_key"
+        android:title="@string/setting_proxy_host_title"
+        android:hint="@string/setting_proxy_host_hint"
+        />
+    <EditTextPreference
+        android:key="@string/setting_proxy_port_key"
+        android:title="@string/setting_proxy_port_title"
+        android:hint="@string/setting_proxy_port_hint"
+        android:inputType="number"
+        android:maxLength="5"
+        />
+
+
+
+</PreferenceScreen>
